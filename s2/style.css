@@ -1,0 +1,59 @@
+/* *{
+
+}
+body{
+
+}
+p{
+    color: green;
+}
+
+#test-id{
+    color: blue;
+}
+.test-class{
+    color: red!important;
+}
+
+p span{
+    color: brown
+}
+
+.test-class.x{
+
+} */
+
+/* 
+.x{
+    color:blue;
+}
+
+.test-class{
+    color: red;
+}
+
+.x, .test-class{
+    color: green;
+}
+
+.x.test-class{
+    color:purple
+}
+.x .test-class{
+    color: #851717;
+    color: rgba(255, 34,14, 1);
+    opacity:.7;
+} */
+
+#my-div{
+    background-color: aquamarine;
+    width:30%;
+    height: 40vh;
+}
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
