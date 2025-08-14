@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* direction: ltr;
+    font-family: "El Messiri", sans-serif; */
+}
+/* #hero{
+    color: red; */
+    /* left right justify center */
+    /* text-align: justify;
+    text-align-last: center; */
+    /* px rem em % .... */
+    /* font-size: 1.2rem;  */
+    /* rem px em ..... */
+    /* line-height: 2; */
+    /* none capitalize uppercase lowercase */
+    /* text-transform: none; */
+    /* !important */
+    /* word-spacing: 10px;
+}
+h2{ */
+    /* text-shadow: 5px 20px 5px blue */
+    /* text-shadow: 0 0 3px green;
+    color: white; */
+    /* text-decoration: overline;
+    text-decoration: underline dashed  red; */
+    /* text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted; 
+    text-decoration-thickness: 5px;
+    font-weight: 600; */
+    /* bold bolder thick  */
+    /* font-style: italic;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+} */
+
+/* #sizing{
+    color: white;
+    background-color: black;
+    width: 30%; */
+    /* height: 20rem; */
+    /* min-height: 2rem;
+    max-height: 3rem; */
+    /* height: fit-content;
+} */
+body{
+    height: 3000px;
+}
+/* section{
+    background-color: black;
+    height: 500px;
+    background-image: url(../images/bg.jpg);
+    background-size: 30%  30%;
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center;
+
+} */
+
+/* .card{
+    height: 30rem;
+    background-color: blueviolet;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+.container{
+    width:80%;
+    /* margin-left:5%;
+    margin-top:3%;
+    margin-right: 5%;
+    margin-bottom: 3%; */
+    margin: 3% auto;
+}
+.container-fluid{
+    width: 100%;
+}
+.card{
+    height: 15rem;
+    background-color: aquamarine;
+    width: 30%;
+    padding: 0.7rem;
+}
