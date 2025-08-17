@@ -25,3 +25,15 @@
     padding: 5px 1% ;
     overflow: hidden;
 }
+
+
+.bg-black{ background-color: black;}
+.bg-red{ background-color: red;}
+.bg-green{ background-color: green;}
+.bg-purple{ background-color: purple;}
+.bg-blue { background-color: blue;}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}

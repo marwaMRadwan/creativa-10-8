@@ -1,0 +1,68 @@
+/* 1C1E53 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* div{
+    height: 500px;
+    width: 50%;
+    border: 2px solid black;
+}
+input{
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid green;
+        margin-left: 5%;
+
+} */
+
+:root{
+    --main-color: #1C1E53;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.bg-main{
+    background: var(--main-color);
+}
+nav img{
+    height:2rem;
+}
+nav{
+    padding: 1% 0;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.text-white{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+nav #logo{
+    width: 60%;
+}
+nav ul{
+    width: 32%;
+}
+nav li{
+    margin-right: 5%;
+}
+#login-btn{
+    padding: 0.4% 2%;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
