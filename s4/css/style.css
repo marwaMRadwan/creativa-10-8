@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+}
+
+#hero div{
+    width: calc(90% / 3);
+    /* background: red; */
+    margin: 1.5%;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    /* aspect-ratio: 2/1; */
+    height: 210px ;
+    line-height: 25px;
+    padding: 5px 1% ;
+    overflow: hidden;
+}
