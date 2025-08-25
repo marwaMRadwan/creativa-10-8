@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;;
+}
+
+/* #my-div{
+    width: 25rem;
+    height: 25rem;
+    background-color: red;
+    margin: 3% auto;
+    position: relative;
+}
+
+.img-fluid{
+    max-width: 50%;
+    position: absolute;
+    top: 80%;
+    right: 0
+} */
+ /* .relative{
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    background: gray;
+    margin: 5% auto;
+ }
+ .relative img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top:calc(50% - 50px);
+    position: absolute;
+    left:calc(100% - 50px)
+ } */
+.container{
+    width:90%;
+    margin: auto;
+}
+.my-5{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.w-50{
+    width:50%;
+}
+h1,h2, h3, h4, h5 , h6{
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+p{
+    line-height: 1.5;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+.service-card{
+    width: 31%;
+    box-shadow: 0 0 5px lightgray;
+    border-radius: 1rem;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+.service-card:hover{
+    /* background-color: blue;
+    color: white; */
+}
+
+.service-card img{
+    width: 70px;
+    aspect-ratio: 1/1;
+
+}
+.service-card:hover img{
+    width: 100px;
+}
+  @media screen and (max-width: 768px) {
+    .w-50{
+        width: 100%;
+    }
+    .service-card{
+        width:100%
+    }
+  }
+
+
+  #d1{
+    position: relative ; height: 200px; width: 30%; background-color: black;
+  }
+
+  #front{
+    position: absolute ; height: 100%; width: 100%; background-color: red;
+  }
+  #back{
+    position: absolute ; height: 100%; width: 100%; background-color: black; opacity: 0.7; display: none;
+  }
+  #d1:hover #back{
+    display: block;
+  }
