@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{ list-style: none;}
+a{ text-decoration: none;}
+table{ border-collapse: collapse;}
+.container-fluid{ width: 100%; }
+.container { width: 90%; margin: auto;}
+
+.w-100{ width: 100%;}
+.w-50{ width: 50%;}
+.w-25{ width: 25%;}
+
+.col-1{ width: calc(100% / 12);}
+.col-2{ width: calc(100% / 12 * 2);}
+.col-3{ width: calc(100% / 12 * 3);}
+.col-4{ width: calc(100% / 12 * 4);}
+.col-5{ width: calc(100% / 12 * 5);}
+.col-6{ width:calc( 100% / 12 * 6);}
+.col-7{ width: calc(100% / 12 * 7);}
+.col-8{ width: calc(100% / 12 * 8);}
+.col-9{ width: calc(100% / 12 * 9);}
+.col-10{ width: calc(100% / 12 * 10);}
+.col-11{ width: calc(100% / 12 * 11);}
+.col-12{ width: 100% ;}
+
+.d-flex{ display: flex; flex-wrap: wrap;}
+.justify-content-between{ justify-content: space-between;}
+.justify-content-around{ justify-content: space-around;}
+.justify-content-center{ justify-content: center;}
+.flex-column{ flex-direction: column;}
+.align-item-center{ align-items: center;}
+.d-inline-block { display: inline-block;}
+
+.fixed { position: fixed}
+.absolute{ position: absolute;}
+.relative{ position: relative;}
+
+.text-end{
+    text-align: end;
+}
+.text-center{ text-align: center;}
+
+.rounded{ border-radius: 50%}
+
+.m-1{ margin: 1rem;}
+.m-2{ margin: 1.2rem;}
+
+.my-5{ margin-top: 1.5rem; margin-bottom: 1.5rem;}
+.p-3{ padding: 1.5%;}
+.btn{ 
+    display: inline-block;
+    padding: 2% 5%;
+}
+.btn-sm{ font-size: 0.8rem; padding: 1% 3.5%;}
+
+.card .card-img{
+    overflow: hidden;
+}
+.card-img img{
+    transform: scale(1);
+    display: block;
+}
+.card:hover img{
+    transform: rotate(-10deg) scale(1.3)
+}
+.social, .card-img img{
+    transition: all 1s;
+}
+.card:hover .social{
+    background-color: blue;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-white{
+    color: white;
+}
