@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 1000px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.my-5{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/* #my-div{
+    width: 20%;
+    aspect-ratio: 1/1;
+    /* background-color: yellow; */
+ /*   transition: all 2s;
+    border: 3px solid black;
+    backface-visibility: hidden;
+}
+#my-div:hover{
+    transform: rotateY(180deg);
+} */
+
+/* .card{
+    position: relative;
+    width:30%;
+    height: 25rem; */
+    /* background-color: aquamarine; */
+/* }
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    backface-visibility: hidden;
+    transition: all 3s;
+}
+
+.back{ background-color: blue; z-index: 2;
+     transform: rotateX(180deg);
+    }
+.front{ background: red; z-index: 3; 
+    transform: rotateX(0deg);
+}
+
+.card:hover .front{
+    transform: rotateX(180deg);
+}
+.card:hover .back{
+    transform: rotateX(0deg);
+} */
+/* .card{
+    position: relative;
+}
+.card div{
+    position: absolute;
+    margin:auto;
+    height: 20rem;
+    width:20rem;
+    transform: skew(10deg);
+     /* rotateY(-30deg) rotateX(45deg) ; */
+/*
+    transition: all 2s;
+}
+
+div:nth-child(1){
+    background-color: yellow;
+}
+div:nth-child(2){
+    background-color: transparent;
+    border: 2px solid red;
+    left: 100px;
+    top:50px
+}
+.card:hover div{
+    transform: skew(0deg) ;
+    /* rotateY(0deg) rotateX(0deg) ; */
+ /*   top: 0;
+    left: 0;
+
+} */
+
+
+/* #card{
+    width: 100%; */
+    /* height: 20rem; */
+    /* animation-name: coloring; */
+    /* animation-duration: 4s;
+    animation-iteration-count: infinite; */
+    /* padding: 2% 0;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    text-overflow: hidden;
+} */
+/* #card p{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    /* animation-direction:alternate-reverse; */
+    /* animation-fill-mode: both; */
+    /* animation-delay: 3s; */
+    /* text-overflow: clip;
+    white-space:nowrap;
+}
+
+@keyframes coloring {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: yellowgreen;
+    }
+}
+
+@keyframes move {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
+
+.p{
+    width: 5rem;
+    height: 5rem;
+      animation: pulse 5s infinite;
+
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+} */
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width:31%;
+    height: 15rem;
+    /* bacground: red; */
+    border: 2px solid black;
+    padding: 3%;
+    margin-bottom: 3%;
+    font-size: 1rem;
+}
+
+    .main-font{
+        font-size:1rem;
+    }
+
+    @media (max-width:768px){
+  .main-font{
+        font-size:0.9rem;
+
+    }
+
+    .card{
+        width:48%;
+    }
+    }
+    @media (max-width:576px){
+  .main-font{
+        font-size:0.8rem;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
