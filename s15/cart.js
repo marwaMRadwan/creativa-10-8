@@ -11,7 +11,7 @@ const products = [
   { id: 9, name: "Speaker", price: 110 },
   { id: 10, name: "Router", price: 130 }
 ];
-const cartItems = []
+let cartItems = []
 const addToCart = (cartArray, productId, q)=>{
     const product = products.find( el=> el.id == productId )
     if(!product) return console.log("product not found")
@@ -19,11 +19,8 @@ const addToCart = (cartArray, productId, q)=>{
     cartArray.push(product)
 }
 const calculateTotalBeforeDiscount = (cartArray)=>{
- let total = 0;
-    cartArray.forEach(item => {
-        total += item.q*item.price
-    });
-
+    let total = 0;
+    cartArray.forEach(item =>  total += item.q*item.price );
     return total
 }
 const calculteCartDiscount =  (cartArray) =>{
@@ -34,6 +31,17 @@ const calculteCartDiscount =  (cartArray) =>{
     return discount
 }
 
+const convertToOrder = () =>{
+    let order = {
+        id: Date.now(),
+        items: cartItems,
+        totalBeforDiscount: calculateTotalBeforeDiscount(cartItems),
+        discount: calculteCartDiscount(cartItems),
+        grandTotal : calculateTotalBeforeDiscount(cartItems) - calculteCartDiscount(cartItems)
+    }
+    cartItems = []
+    return  order
+}
 addToCart(cartItems, 1, 10) //1200*10
 addToCart(cartItems, 5, 5) //75*5 
 addToCart(cartItems, 3, 3) //75*5 
@@ -50,3 +58,7 @@ discount is ${calculteCartDiscount(cartItems)}
 Grand Total is ${ calculateTotalBeforeDiscount(cartItems) - calculteCartDiscount(cartItems)}
     `
 )
+
+
+console.log(convertToOrder())
+console.log(cartItems);
