@@ -1,0 +1,17 @@
+crud data (users => id, name, age, email)
+create read update delete => 
+    create => page
+    show all => page (edit show single delete)
+    edit => page
+    show single => page
+    delete => function
+
+
+    read from local storage
+    write to local storage
+    add data
+    get All data
+    get single data
+    update data
+    delete data
+    
